@@ -27,19 +27,19 @@ int main(){
 	
 	switch(pil){
 	        case 1 : hasil=no1+no2;
-			operasi='+';
+			Kalkulasi='+';
 			break;
 		case 2 : hasil=no1-no2;
-			operasi='-';
+			Kalkulasi='-';
 			break;
 		case 3 : hasil=no1*no2;
-			operasi='*';
+			Kalkulasi='*';
 			break;
 		case 4 : hasil=no1/no2;
-			operasi='/';
+			Kalkulasi='/';
 			break;
 		case 5 : hasil=no1%no2;
-			 operasi='%';
+			 Kalkulasi='%';
 			break;
 		default :
 			cout<<"Salah Masukan Operator"<<endl;
