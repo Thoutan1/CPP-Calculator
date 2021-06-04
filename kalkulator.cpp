@@ -18,11 +18,11 @@ int main(){
 	cout<<"5. Modulus"<<endl;
 	cout<<endl;
 	
-	cout<<"Masukan Pilihan Kalkulasi Mu : ";
+	cout<<"Tulis Pilihan Kalkulasi Mu : ";
 	cin>>pil;
-	cout<<"Masukan Bilangan Yang Pertama : ";
+	cout<<"Tulis Bilangan Yang Pertama : ";
 	cin>>no1;
-	cout<<"Masukan Bilangan Yang Kedua : ";
+	cout<<"Tulis Bilangan Yang Kedua : ";
 	cin>>no2;	
 	
 	switch(pil){
