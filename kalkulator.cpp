@@ -44,9 +44,9 @@ int main(){
 		default :
 			cout<<"Salah Masukan Operator"<<endl;
 	}
-	cout<<"-----------------------------"<<endl;
+	
 	cout<<"    "<<no1<<Kalkulasi<<no2<<"="<<hasil<<endl;
-	cout<<"-----------------------------"<<endl;
+	
 	
 	getch();
 }
