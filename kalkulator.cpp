@@ -8,21 +8,21 @@ int main(){
 	
 	int bil1,bil2, pil;
 	float hasil;
-	string operasi;
+	string Kalkulasi;
 	
-	cout<<"PILIH OPERATOR ARITMATIKA"<<endl;
-	cout<<"1. Penjumlahan"<<endl;
+	cout<<"Pilih Kalkulasi"<<endl;
+	cout<<"1. Pertambahan"<<endl;
 	cout<<"2. Pengurangan"<<endl;
 	cout<<"3. Perkalian"<<endl;
 	cout<<"4. Pembagian"<<endl;
 	cout<<"5. Modulus"<<endl;
 	cout<<endl;
 	
-	cout<<"Masukan Pilihan : ";
+	cout<<"Masukan Pilihan Kalkulasi Mu : ";
 	cin>>pil;
-	cout<<"Masukan Bilangan pertama : ";
+	cout<<"Masukan Bilangan Yang Pertama : ";
 	cin>>bil1;
-	cout<<"Masukan Bilangan kedua : ";
+	cout<<"Masukan Bilangan Yang Kedua : ";
 	cin>>bil2;	
 	
 	switch(pil){
@@ -45,7 +45,7 @@ int main(){
 			cout<<"Salah Masukan Operator"<<endl;
 	}
 	cout<<"-----------------------------"<<endl;
-	cout<<"    "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	cout<<"    "<<bil1<<Kalkulasi<<bil2<<"="<<hasil<<endl;
 	cout<<"-----------------------------"<<endl;
 	
 	getch();
