@@ -1,5 +1,8 @@
-# C---Calculator
+# C++ Calculator
 
+
+## Run file
 ```c
-For The Tes Run Exe File
+g++ main.cpp
 ```
+## Thanks you
